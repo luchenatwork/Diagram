@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T14:51:00.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="1XkWerUsGf9v23r1OhqY" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T15:02:45.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LhWod1A2ZQU18w3IzZOn" version="20.0.1" type="github">
   <diagram id="NiyUhias2j71h_jcPy_A" name="Page-1">
     <mxGraphModel dx="2062" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="290" y="395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5sTWFHAsZy2F_GPWGi9K-4" value="Data Lake&lt;br&gt;&lt;br&gt;Input Folder:&lt;br&gt;Process_1234567890.csv&lt;br&gt;&lt;br&gt;Output Folder:&lt;br&gt;Process_Binary_1234567890.dat&lt;br&gt;&lt;br&gt;Dashboard Folder:&lt;br&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Events.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Case Statistics.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Variants.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Variants Resource.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Dates.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Process Map.json&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="920" y="450" width="140" height="330" as="geometry" />
+          <mxGeometry x="920" y="460" width="140" height="320" as="geometry" />
         </mxCell>
         <mxCell id="5sTWFHAsZy2F_GPWGi9K-5" value="Azure SQL&lt;br&gt;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="920" y="80" width="140" height="330" as="geometry" />
+          <mxGeometry x="920" y="80" width="140" height="170" as="geometry" />
         </mxCell>
         <mxCell id="5sTWFHAsZy2F_GPWGi9K-7" value="Create Data Process&lt;br&gt;Process Id&lt;br&gt;Process Name&lt;br&gt;Data Lake Store Id&lt;br&gt;Minit Dashboard Template Id" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -158,6 +158,9 @@
             <mxPoint x="90" y="470" as="sourcePoint" />
             <mxPoint x="90" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-39" value="Redis Cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="920" y="270" width="140" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
