@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T15:02:45.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LhWod1A2ZQU18w3IzZOn" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T13:38:42.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JoZO8ZTHUj5zRZaI8YfV" version="20.0.3" type="github">
   <diagram id="NiyUhias2j71h_jcPy_A" name="Page-1">
-    <mxGraphModel dx="2062" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1375" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-1" value="PPUX Data Flow Wizard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-1" value="PPUX Data Flow Wizard" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-2" value="Dataverse (CDS)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="395" width="120" height="60" as="geometry" />
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-2" value="Dataverse (CDS)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-4" value="Data Lake&lt;br&gt;&lt;br&gt;Input Folder:&lt;br&gt;Process_1234567890.csv&lt;br&gt;&lt;br&gt;Output Folder:&lt;br&gt;Process_Binary_1234567890.dat&lt;br&gt;&lt;br&gt;Dashboard Folder:&lt;br&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Events.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Case Statistics.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Variants.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Variants Resource.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Dates.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Process Map.json&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-4" value="Data Lake&lt;br&gt;&lt;br&gt;Input Folder:&lt;br&gt;Process_1234567890.csv&lt;br&gt;&lt;br&gt;Output Folder:&lt;br&gt;Process_SQLite_1234567890.db&lt;br&gt;&lt;br&gt;Dashboard Folder:&lt;br&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Events.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Case Statistics.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Variants.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Variants Resource.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Dates.json&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Process Map.json&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="460" width="140" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-5" value="Azure SQL&lt;br&gt;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-5" value="Azure SQL&lt;br&gt;&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="80" width="140" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-7" value="Create Data Process&lt;br&gt;Process Id&lt;br&gt;Process Name&lt;br&gt;Data Lake Store Id&lt;br&gt;Minit Dashboard Template Id" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-5">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-7" value="Create Data Process&lt;br&gt;Process Id&lt;br&gt;Process Name&lt;br&gt;Data Lake Store Id&lt;br&gt;Minit Dashboard Template Id" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="160" as="sourcePoint" />
             <mxPoint x="580" y="110" as="targetPoint" />
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-4">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;startArrow=none;" parent="1" source="pmIwKvQtVI7LVR6vZD1Z-1" target="5sTWFHAsZy2F_GPWGi9K-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="60" as="sourcePoint" />
             <mxPoint x="540" y="340" as="targetPoint" />
@@ -36,131 +36,147 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-9" value="Store Process Data Raw Csv File&lt;br&gt;Process_1234567890.csv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5sTWFHAsZy2F_GPWGi9K-8">
-          <mxGeometry x="-0.167" y="3" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-10" value="Process Insights Service Job Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-10" value="Process Insights Service Job Controller" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-11" value="Tirigger Analyze Job" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-10">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-11" value="Tirigger Analyze Job" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="190" as="sourcePoint" />
             <mxPoint x="420" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-12" value="Minit Csv File Importer&lt;br&gt;Repository Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-12" value="Minit Csv File Importer&lt;br&gt;Repository Manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-10" target="5sTWFHAsZy2F_GPWGi9K-12">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-10" target="5sTWFHAsZy2F_GPWGi9K-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="380" as="sourcePoint" />
             <mxPoint x="490" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=90;exitPerimeter=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-4" target="5sTWFHAsZy2F_GPWGi9K-10">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=90;exitPerimeter=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-4" target="5sTWFHAsZy2F_GPWGi9K-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="580" as="sourcePoint" />
             <mxPoint x="760" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-16" value="Get Process Data Raw Csv File&lt;br&gt;Process_1234567890.csv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5sTWFHAsZy2F_GPWGi9K-14">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-16" value="Get Process Data Raw Csv File&lt;br&gt;Process_1234567890.csv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5sTWFHAsZy2F_GPWGi9K-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0428" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-37" target="5sTWFHAsZy2F_GPWGi9K-2">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-37" target="5sTWFHAsZy2F_GPWGi9K-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="120" as="sourcePoint" />
             <mxPoint x="240" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-19" value="Select Import Data Connector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-19" value="Select Import Data Connector" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-19" target="5sTWFHAsZy2F_GPWGi9K-1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-19" target="5sTWFHAsZy2F_GPWGi9K-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="160" as="sourcePoint" />
             <mxPoint x="130" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-22" value="New Data Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-22" value="New Data Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-23" value="Select Minit Dashboard Template" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-23" value="Select Minit Dashboard Template" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-22" target="5sTWFHAsZy2F_GPWGi9K-23">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-22" target="5sTWFHAsZy2F_GPWGi9K-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="335" as="sourcePoint" />
             <mxPoint x="160" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-23" target="5sTWFHAsZy2F_GPWGi9K-19">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-23" target="5sTWFHAsZy2F_GPWGi9K-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="520" as="sourcePoint" />
             <mxPoint x="260" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-26" value="Get Minit Dashboard Template List" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-23">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-26" value="Get Minit Dashboard Template List" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-2" target="5sTWFHAsZy2F_GPWGi9K-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="435" as="sourcePoint" />
             <mxPoint x="100" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=90;exitPerimeter=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-5" target="5sTWFHAsZy2F_GPWGi9K-10">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=90;exitPerimeter=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-5" target="5sTWFHAsZy2F_GPWGi9K-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="290" as="sourcePoint" />
             <mxPoint x="500" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-28" value="Get Data Process&lt;br&gt;Process Id&lt;br&gt;Process Name&lt;br&gt;Data Lake Store Id&lt;br&gt;Minit Dashboard Template Id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5sTWFHAsZy2F_GPWGi9K-27">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-28" value="Get Data Process&lt;br&gt;Process Id&lt;br&gt;Process Name&lt;br&gt;Data Lake Store Id&lt;br&gt;Minit Dashboard Template Id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5sTWFHAsZy2F_GPWGi9K-27" vertex="1" connectable="0">
           <mxGeometry x="0.2432" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-29" value="Store Process Data Partitioned Binary File&lt;br&gt;Process_Binary_1234567890.dat" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-12">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-29" value="Store&lt;br&gt;Process_SQLite_1234567890.db" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="551" y="490" as="sourcePoint" />
             <mxPoint x="921" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-30" value="Minit Dashboard Exporter&lt;br&gt;Data Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-30" value="Minit Dashboard Exporter&lt;br&gt;Data Manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-12" target="5sTWFHAsZy2F_GPWGi9K-30">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-12" target="5sTWFHAsZy2F_GPWGi9K-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="220" as="sourcePoint" />
             <mxPoint x="620" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-33" value="Store Dashboard Data&lt;br&gt;Events.json&lt;br&gt;Case Statistics.json&lt;br&gt;Variants.json&lt;br&gt;Variants Resource.json&lt;br&gt;Dates.json&lt;br&gt;Process Map.json" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=240;entryPerimeter=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-30" target="5sTWFHAsZy2F_GPWGi9K-4">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-33" value="Store Dashboard Data&lt;br&gt;Events.json&lt;br&gt;Case Statistics.json&lt;br&gt;Variants.json&lt;br&gt;Variants Resource.json&lt;br&gt;Dates.json&lt;br&gt;Process Map.json" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=240;entryPerimeter=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-30" target="5sTWFHAsZy2F_GPWGi9K-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="525" as="sourcePoint" />
             <mxPoint x="900" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-34" value="Publish Minit Power BI Report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-34" value="Publish Minit Power BI Report" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-30" target="5sTWFHAsZy2F_GPWGi9K-34">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-30" target="5sTWFHAsZy2F_GPWGi9K-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="375" as="sourcePoint" />
             <mxPoint x="620" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-37" value="Save Data Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-37" value="Save Data Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-1" target="5sTWFHAsZy2F_GPWGi9K-37">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5sTWFHAsZy2F_GPWGi9K-1" target="5sTWFHAsZy2F_GPWGi9K-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="470" as="sourcePoint" />
             <mxPoint x="90" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5sTWFHAsZy2F_GPWGi9K-39" value="Redis Cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="5sTWFHAsZy2F_GPWGi9K-39" value="Redis Cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="270" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pmIwKvQtVI7LVR6vZD1Z-1" value="Data Flow Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pmIwKvQtVI7LVR6vZD1Z-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="pmIwKvQtVI7LVR6vZD1Z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="510" as="sourcePoint" />
+            <mxPoint x="990" y="780" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmIwKvQtVI7LVR6vZD1Z-3" value="Store Process Data Raw Csv File&lt;br&gt;Process_1234567890.csv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pmIwKvQtVI7LVR6vZD1Z-2">
+          <mxGeometry x="-0.167" y="3" relative="1" as="geometry">
+            <mxPoint y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmIwKvQtVI7LVR6vZD1Z-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5sTWFHAsZy2F_GPWGi9K-37" target="pmIwKvQtVI7LVR6vZD1Z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="740" as="sourcePoint" />
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
