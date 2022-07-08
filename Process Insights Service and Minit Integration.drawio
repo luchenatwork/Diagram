@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T18:11:21.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PBN-prrYltFiCXrKzVIA" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T19:47:59.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RcpauIJoF3v921vagGSI" version="20.0.4" type="github">
   <diagram id="C8j_8flPOBpoar4NSnce" name="Page-1">
     <mxGraphModel dx="2062" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-17" value="MinitBinaryDataImportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="60" y="269" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mgipW3gkoZzFsmlLgcQ_-18" value="MinitProcessMapExportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
+        <mxCell id="mgipW3gkoZzFsmlLgcQ_-18" value="MinitViewDataExportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="60" y="339" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-20" value="UploadProcessReportStep" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-22" value="UpdateScheduledAnalysisStep" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="60" y="620" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mgipW3gkoZzFsmlLgcQ_-41" value="MinitProcessDataExportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
+        <mxCell id="mgipW3gkoZzFsmlLgcQ_-41" value="MinitProcessModelDataExportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="60" y="411" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-57" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="mgipW3gkoZzFsmlLgcQ_-12" target="mgipW3gkoZzFsmlLgcQ_-15" edge="1">
@@ -115,7 +115,7 @@
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-26" value="Azure Data Lake" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="560" y="280" width="200" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="mgipW3gkoZzFsmlLgcQ_-29" value="Raw Process CSV Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-26" vertex="1">
+        <mxCell id="mgipW3gkoZzFsmlLgcQ_-29" value="Raw CSV Formatted Process Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-26" vertex="1">
           <mxGeometry x="20" y="110" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-42" value="Minit SQLite Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-26" vertex="1">
@@ -133,7 +133,7 @@
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-49" value="VariantsResource Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-26" vertex="1">
           <mxGeometry x="20" y="670" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mgipW3gkoZzFsmlLgcQ_-50" value="ProcessMap Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-26" vertex="1">
+        <mxCell id="mgipW3gkoZzFsmlLgcQ_-50" value="View Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-26" vertex="1">
           <mxGeometry x="20" y="430" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-30" value="Power Query Service" style="swimlane;" parent="1" vertex="1">
