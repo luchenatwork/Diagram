@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T13:14:50.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AYg0Sgs7f5mgByy3Z0Rh" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T13:36:23.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="uSRcDB6-AC9vg4QkvSQb" version="20.0.4" type="github">
   <diagram id="C8j_8flPOBpoar4NSnce" name="Page-1">
     <mxGraphModel dx="2062" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,9 +91,6 @@
         <mxCell id="HX2eNsr1KpRsJnRnEc4r-9" value="Temp Folder" style="swimlane;startSize=23;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="15" y="49" width="165" height="331" as="geometry" />
         </mxCell>
-        <mxCell id="HX2eNsr1KpRsJnRnEc4r-10" value="Raw CSV Formatted Process Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="HX2eNsr1KpRsJnRnEc4r-9" vertex="1">
-          <mxGeometry x="12.5" y="50" width="136" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="HX2eNsr1KpRsJnRnEc4r-11" value="Minit SQLite Database Files" style="rounded=0;whiteSpace=wrap;html=1;" parent="HX2eNsr1KpRsJnRnEc4r-9" vertex="1">
           <mxGeometry x="12.5" y="190" width="137.5" height="30" as="geometry" />
         </mxCell>
@@ -104,12 +101,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="319" as="sourcePoint" />
             <mxPoint x="130" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HX2eNsr1KpRsJnRnEc4r-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.805;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="mgipW3gkoZzFsmlLgcQ_-16" target="HX2eNsr1KpRsJnRnEc4r-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-80" y="379" as="sourcePoint" />
-            <mxPoint x="-30" y="329" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HX2eNsr1KpRsJnRnEc4r-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="mgipW3gkoZzFsmlLgcQ_-17" target="HX2eNsr1KpRsJnRnEc4r-11" edge="1">
@@ -134,12 +125,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320.5" y="499" as="sourcePoint" />
             <mxPoint x="340" y="739" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HX2eNsr1KpRsJnRnEc4r-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.555;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="HX2eNsr1KpRsJnRnEc4r-10" target="mgipW3gkoZzFsmlLgcQ_-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-270" y="339" as="sourcePoint" />
-            <mxPoint x="-220" y="289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-13" value="Microsoft.Dynamics.CRM.Analyze" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mgipW3gkoZzFsmlLgcQ_-7" target="mgipW3gkoZzFsmlLgcQ_-9" edge="1">
