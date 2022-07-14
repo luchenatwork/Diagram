@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T14:05:59.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tFGpPG7_pzvnlrbRulOP" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T13:14:50.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AYg0Sgs7f5mgByy3Z0Rh" version="20.0.4" type="github">
   <diagram id="C8j_8flPOBpoar4NSnce" name="Page-1">
     <mxGraphModel dx="2062" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-7" value="PPUX" style="swimlane;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="440" height="70" as="geometry" />
+          <mxGeometry x="59" y="40" width="465" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-8" value="Process Advisor" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-7" vertex="1">
           <mxGeometry x="20" y="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-9" value="Dataverse (CDS) API" style="swimlane;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="93" y="220" width="194" height="70" as="geometry" />
+          <mxGeometry x="78" y="220" width="194" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-10" value="Process Advisor Analyze Custom Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-9" vertex="1">
           <mxGeometry x="20" y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-11" value="Process Insights Service" style="swimlane;startSize=23;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="60" y="371" width="464.5" height="680" as="geometry" />
+          <mxGeometry x="60" y="350" width="464.5" height="609" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-12" value="JobsController/HandleJobAsync" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="190" y="50" width="257" height="30" as="geometry" />
@@ -32,16 +32,16 @@
           <mxGeometry x="191" y="289" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-18" value="ReportCustomVisualDataExportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
-          <mxGeometry x="191" y="349" width="260" height="30" as="geometry" />
+          <mxGeometry x="190" y="349" width="261" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-20" value="UploadProcessReportStep" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
-          <mxGeometry x="191" y="519" width="259" height="30" as="geometry" />
+          <mxGeometry x="191" y="462" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-21" value="UpdateTaskAttributesStep" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
-          <mxGeometry x="191" y="569" width="259" height="30" as="geometry" />
+          <mxGeometry x="191" y="512" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-22" value="UpdateScheduledAnalysisStep" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
-          <mxGeometry x="192" y="619" width="258" height="30" as="geometry" />
+          <mxGeometry x="192" y="562" width="258" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-41" value="ReportProcessModelDataExportStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
           <mxGeometry x="190" y="409" width="261" height="30" as="geometry" />
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HX2eNsr1KpRsJnRnEc4r-9" value="Temp Folder" style="swimlane;startSize=23;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
-          <mxGeometry x="15" y="49" width="165" height="601" as="geometry" />
+          <mxGeometry x="15" y="49" width="165" height="331" as="geometry" />
         </mxCell>
         <mxCell id="HX2eNsr1KpRsJnRnEc4r-10" value="Raw CSV Formatted Process Data File" style="rounded=0;whiteSpace=wrap;html=1;" parent="HX2eNsr1KpRsJnRnEc4r-9" vertex="1">
           <mxGeometry x="12.5" y="50" width="136" height="30" as="geometry" />
@@ -130,18 +130,9 @@
             <mxPoint x="50" y="709" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HX2eNsr1KpRsJnRnEc4r-21" value="TempFilesCleanupStep" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="mgipW3gkoZzFsmlLgcQ_-11" vertex="1">
-          <mxGeometry x="190" y="469" width="261" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HX2eNsr1KpRsJnRnEc4r-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="mgipW3gkoZzFsmlLgcQ_-41" target="HX2eNsr1KpRsJnRnEc4r-21" edge="1">
+        <mxCell id="HX2eNsr1KpRsJnRnEc4r-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="mgipW3gkoZzFsmlLgcQ_-41" target="mgipW3gkoZzFsmlLgcQ_-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="769" as="sourcePoint" />
-            <mxPoint x="170" y="719" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HX2eNsr1KpRsJnRnEc4r-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mgipW3gkoZzFsmlLgcQ_-11" source="HX2eNsr1KpRsJnRnEc4r-21" target="mgipW3gkoZzFsmlLgcQ_-20" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="789" as="sourcePoint" />
+            <mxPoint x="320.5" y="499" as="sourcePoint" />
             <mxPoint x="340" y="739" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -197,7 +188,7 @@
           <mxGeometry x="20" y="719" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-30" value="Power Query Service" style="swimlane;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="301" y="220" width="217" height="70" as="geometry" />
+          <mxGeometry x="300" y="220" width="217" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mgipW3gkoZzFsmlLgcQ_-31" value="PowerPlatformDataflowsController" style="rounded=0;whiteSpace=wrap;html=1;" parent="mgipW3gkoZzFsmlLgcQ_-30" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
@@ -273,8 +264,25 @@
             <mxPoint x="900" y="730" as="sourcePoint" />
             <mxPoint x="780" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="820" y="683" />
+              <mxPoint x="510" y="680" />
+              <mxPoint x="820" y="680" />
               <mxPoint x="820" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZa1l0D0yRa2et-ZG17w-5" value="Process Insights Temp Files Clean Up Service" style="swimlane;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="991" width="465" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZa1l0D0yRa2et-ZG17w-7" value="TempFilesCleanUpBackgroundService" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="MZa1l0D0yRa2et-ZG17w-5">
+          <mxGeometry x="60" y="26" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MZa1l0D0yRa2et-ZG17w-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MZa1l0D0yRa2et-ZG17w-7" target="HX2eNsr1KpRsJnRnEc4r-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="990" as="sourcePoint" />
+            <mxPoint x="20" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1032" />
+              <mxPoint x="40" y="565" />
             </Array>
           </mxGeometry>
         </mxCell>
