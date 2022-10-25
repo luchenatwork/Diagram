@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T13:43:01.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.0.4" etag="3j5dOGQItfK3KGbsdy0X" type="github"><diagram id="Qg26-w_RHtkoewVcSizu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-25T14:01:05.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="p-9_QtKKSm9cQB7jFQKO" version="20.0.4" type="github">
+  <diagram id="Qg26-w_RHtkoewVcSizu" name="Page-1">
+    <mxGraphModel dx="2062" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-3" value="Power Automate / Process Advisor" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-13" value="Create Data Process with Template" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="OOhRc9mGZbD4iBU65ISO-3">
+          <mxGeometry x="30" y="40" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-14" value="Create Data Process without Template" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="OOhRc9mGZbD4iBU65ISO-3">
+          <mxGeometry x="30" y="80" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-7" value="Dataverse" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-8" value="Process Insights Service" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="560" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-11" value="Power Automate / Process Advisor" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="920" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-12" value="Process Insights Analytics Page Display Power BI Report" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="OOhRc9mGZbD4iBU65ISO-11">
+          <mxGeometry x="30" y="50" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-15" value="Power Platform Dataflow Service" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OOhRc9mGZbD4iBU65ISO-16" value="Power BI" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="250" y="740" width="370" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
